@@ -33,7 +33,7 @@ export class AttoreComponent implements OnInit {
   }
 
   getAttori(){
-    this.GetData("attori",this.page,3);
+    this.GetData("attori",this.page,4);
 /*    this.sd.getAttori()
     .subscribe(res => {
        this.attori  = res      
